@@ -4,7 +4,7 @@ This is a solution to the [News homepage challenge on Frontend Mentor](https://w
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [News homepage](https://mermory-alloc.github.io/News-homepage/)
 
 ## My process
 First thing that i did here is dividing the layout to a header, a main and a footer. the main itself it has been divided to three sections displayed as grid of 3*3 .
