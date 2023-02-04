@@ -53,12 +53,12 @@ header, .main{
 header{
   padding-top: 5rem;
   padding-bottom: 3rem;
-}
-
-.nav{
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.nav{
 }
 
 .logo{
@@ -69,7 +69,7 @@ header{
 }
 
 .icons{
-  position: relative;
+  all: unset;
 }
 
 .menu__icon{
@@ -78,9 +78,7 @@ header{
 }
 
 .exit__menu__icon{
-  position: absolute;
-  right: 0;
-  top: -20px;
+  position: relative;
   width:40px;
   z-index: 3;
   cursor: pointer;
@@ -120,6 +118,19 @@ header{
   display: grid;
   grid-template-columns: repeat(3,1fr);
   gap:2rem;
+}
+
+.title__page{
+  font-size: 0;
+  width: 1px;
+  height: 1px;
+  display: inline-block;
+  overflow: hidden;
+  position: absolute!important;
+  border: 0!important;
+  padding: 0!important;
+  margin: 0!important;
+  clip: rect(1px,1px,1px,1px);
 }
 
 
